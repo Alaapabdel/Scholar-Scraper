@@ -37,7 +37,7 @@ Dependencies
 
 Install the required Python packages using the following command:
 
-pip install requests selenium beautifulsoup4 PyMuPDF tkinter
+pip install -r requirements.txt
 
 ChromeDriver
 
@@ -49,7 +49,7 @@ Usage
 
     Run the main script:
 
-    python main.py
+    python scholarscraper.py
 
     Use the GUI to specify the search query, number of papers to download, and the save path.
 
@@ -85,4 +85,4 @@ The log area displays messages about the download process, including errors and 
 
 Disclaimer
 
-This tool is intended for legal and ethical usage only. It is designed to assist in academic research for master's students and researchers. The developers are not responsible for any misuse of the tool.
+This tool was developed to assist in my master's research and is intended for legal and ethical use. It is designed to help other master’s students and researchers. I am not responsible for any misuse.
